@@ -17,9 +17,9 @@ Undergraduate Graduation Project in ECNU SEI
 | 文件名 | 功能说明 |
 |--------|-----------|
 | `getdata.py` | 用于抓取 Spotify 上的音乐数据，包括歌手、描述和类型（genre）等信息。 |
-| `experiments.ipynb` | 实验主流程，包括数据处理、prompt构建、模型调用、评估等步骤。 |
-| `qwen_MusicgenSmall_gradio_1.py` | 通过本地部署的 MusicGen-small 与 Qwen 模型，用 Gradio 搭建交互界面。 |
-| `qwen_MusicgenMedium_gradio_2.py` | 使用 Hugging Face API 远程调用 MusicGen-medium 模型，生成音乐片段。 |
+| `qwen_MusicgenSmall_gradio_1.py` | 通过部署 MusicGen-small 与 Qwen 模型生成音乐。 |
+| `qwen_MusicgenMedium_gradio_2.py` | Qwen + 使用 Hugging Face API 远程调用 MusicGen-medium 模型，生成音乐片段。 |
+| `experiments.ipynb` | 实验流程，包括prompt构建、模型调用、评估等步骤。 |
 
 ### 二、数据集文件（位于 `数据集/` 文件夹内）
 
